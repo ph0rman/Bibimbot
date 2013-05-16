@@ -1,1 +1,1 @@
-web: bin/hubot -a irc -n manatoo
+worker: bin/hubot -a irc -n manatoo
