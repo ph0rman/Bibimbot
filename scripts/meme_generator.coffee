@@ -28,6 +28,7 @@
 #   hubot one does not simply <text> - Lord of the Rings Boromir
 #   hubot it looks like (you|you're) <text> - Generates Clippy
 #   hubot what if I told you <text> - Morpheus
+#   hubot prepare yourself <text> - Boromir preparing
 # Author:
 #   skalnik, ph0rman
 
@@ -113,6 +114,11 @@ module.exports = (robot) ->
         regex: /(what if I told you) (.*)/i,
         generatorID: 1118843,
         imageID: 4796874
+      }
+      {
+        regex: /(prepare yourself) (.*)/i,
+        generatorID: 414926,
+        imageID: 2295701
       }
     ]
 
